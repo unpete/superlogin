@@ -3,7 +3,7 @@ var path = require('path');
 // These are the default settings that will be used if you don't override them in your config
 module.exports = {
   security: {
-    defaultRoles: ['user'],
+    defaultRoles: ['ram_reader', 'doc_editor'],
     maxFailedLogins: 4,
     lockoutTime: 300,
     sessionLife: 86400,

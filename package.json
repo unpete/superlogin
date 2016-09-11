@@ -45,12 +45,14 @@
     "passport": "^0.3.2",
     "passport-http-bearer-sl": "^1.0.1",
     "passport-local": "^1.0.0",
-    "pouchdb": "~5.3.1",
+    "pouchdb": "^5.4",
     "pouchdb-seed-design": "^0.2.0",
+    "process-nextick-args": "^1.0",
     "redis": "^2.5.2",
     "sofa-model": "^0.2.0",
     "superagent": "^1.2.0",
-    "urlsafe-base64": "1.0.0"
+    "urlsafe-base64": "1.0.0",
+    "util-deprecate": "^1.0"
   },
   "devDependencies": {
     "body-parser": "^1.9.2",

@@ -45,7 +45,7 @@ module.exports = {
     usernameField: 'user',
     passwordField: 'pass',
     // Override default constraints
-    passwordConstraints = {
+    passwordConstraints: {
       length: {
         minimum: 6,
         message: "must be at least 6 characters"
@@ -72,7 +72,7 @@ module.exports = {
   },
   session: {
     // 'redis' or 'memory'
-    adapter: 'redis',
+    adapter: 'memory',
     redis: {
       // If url is supplied, port and host will be ignored
       url: 'redis://user:pass@host:port',

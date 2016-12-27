@@ -23,7 +23,7 @@ module.exports = {
   },
   dbServer: {
     protocol: 'http://',
-    host: 'localhost:5984',
+    host: 'cou206:5984',
     designDocDir: path.join(__dirname, '/designDocs'),
     userDB: 'sl_users',
     // CouchDB's _users database. Each session generates the user a unique login and password. This is not used with Cloudant.

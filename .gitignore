@@ -1,6 +1,22 @@
-.DS_Store
-.idea/
+# Exclude compiled files
+build
+
+# Private config files
+
+# TODO
+.github
+
+# OS files
+.DS_STORE
+
+# npm files
+node_modules
+package-lock.json
+*.log
+
+# Editor files
+.idea
+.vscode
+.nyc_output
 .session
-node_modules/
-npm-debug.log
-env.sh
+

@@ -3,7 +3,7 @@ var path = require('path');
 // These are the default settings that will be used if you don't override them in your config
 module.exports = {
   security: {
-    defaultRoles: ['ram_reader', 'doc_editor'],
+    defaultRoles: ['doc_editor'],
     maxFailedLogins: 4,
     lockoutTime: 300,
     sessionLife: 86400,
@@ -31,12 +31,12 @@ module.exports = {
   },
   emails: {
     confirmEmail: {
-      subject: 'Please confirm your email',
+      subject: 'Подтверждение email',
       template: path.join(__dirname, '../templates/email/confirm-email.ejs'),
       format: 'text'
     },
     forgotPassword: {
-      subject: 'Your password reset link',
+      subject: 'Сброс пароля',
       template: path.join(__dirname, '../templates/email/forgot-password.ejs'),
       format: 'text'
     }

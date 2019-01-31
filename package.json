@@ -60,11 +60,11 @@
     "gulp": "^3.8.6",
     "gulp-jshint": "^2.1.0",
     "gulp-mocha": "^2.2.0",
-    "jshint": "^2.9.6",
+    "jshint": "^2.9.7",
     "jshint-stylish": "^2.1.0",
     "mocha": "^2.4.5",
     "morgan": "^1.9.1",
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.6.3",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.14.0"
   }
